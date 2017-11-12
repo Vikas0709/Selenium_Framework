@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="suite" >
+  
+  <parameter name="AppURL_SIT" value="https://www.flipkart.com/account/login?ret=/"></parameter>
+  <parameter name="AppURL_UAT" value="https://www.flipkart.com/account/login?ret=/"></parameter>
+  
+  <test name="Regression">
+  <parameter name="BrowserName" value="Chrome"></parameter>
+    <classes >
+       <!--  <class name="testcases.LoginPage"/> -->
+        <!-- <class name="testcases.ForgetPassword"/> -->
+        <class name="testcases.LoginFlipKart"></class>
+    </classes>
+  </test> 
+
+  
+</suite> 
