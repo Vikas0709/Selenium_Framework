@@ -6,6 +6,7 @@ public class PrintUtils {
 
 	/**
 	 * @author Balamurugan
+	 * @category test
 	 */
 	
 	public  static void logMesaage(String Value)
