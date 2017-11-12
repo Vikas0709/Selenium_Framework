@@ -4,6 +4,9 @@ import org.testng.Reporter;
 
 public class PrintUtils {
 
+	/**
+	 * @author Balamurugan
+	 */
 	
 	public  static void logMesaage(String Value)
 	{
